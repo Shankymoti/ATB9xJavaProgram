@@ -7,6 +7,7 @@ public class PalindromeOfString {
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter the String");
         String str = sc.nextLine();
+        // First approach
         boolean is_palindrome = true;
         int start =0;
         int last = str.length()-1;
@@ -23,5 +24,19 @@ public class PalindromeOfString {
         }else {
             System.out.println("String is not a palindrome");
         }
+
+        //Second Approach
+
+     /*   String reverse = "";
+        for(int i=str.length()-1; i>=0; i--){
+            reverse = reverse+str.charAt(i);
+        }
+        if(str.equals(reverse)){
+            System.out.println("String is palindrome");
+        }else {
+            System.out.println("String is  not palindrome");
+        }
+
+      */
     }
 }
