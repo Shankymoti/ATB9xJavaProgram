@@ -21,12 +21,14 @@ public class DetermineAnyDuplicateInAnArray {
     public static  void findDuplicateInArray(int[] arr){
 
        // First Approach
-        Set<Integer> set = new HashSet<Integer>();
+    /*    Set<Integer> set = new HashSet<Integer>();
         for(int a : arr){
             if(set.add(a) == false){
                 System.out.println("duplicate element is: "+a);
             }
         }
+
+     */
 
         // Second Approach -  by brute force
 
