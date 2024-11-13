@@ -7,6 +7,5 @@ public class Main {
         TestCase1 tc1 = new TestCase1();
         tc1.setBrowser("chrome",true);
         tc1.startTestCase();
-        tc1.closeBrowser();
     }
 }
